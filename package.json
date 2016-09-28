@@ -1,0 +1,26 @@
+{
+  "name": "moz-devtools-gitbot",
+  "version": "1.0.0",
+  "description": "A bot which listens to Github Webhooks and does nice things.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbhoosreddy/moz-devtools-gitbot.git"
+  },
+  "keywords": [
+    "mozilla",
+    "devtools",
+    "github",
+    "bot"
+  ],
+  "author": "Jaideep Bhoosreddy <jaideepb@buffalo.edu> (http://github.com/jbhoosreddy)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jbhoosreddy/moz-devtools-gitbot/issues"
+  },
+  "homepage": "https://github.com/jbhoosreddy/moz-devtools-gitbot#readme"
+}
