@@ -1,0 +1,13 @@
+{
+  "name": "Bot for devtools-html/debugger.html",
+  "description": "A bot which listens to Github Webhooks and does nice things.",
+  "repository": "https://github.com/jbhoosreddy/moz-devtools-gitbot",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": [
+    "mozilla",
+    "devtools",
+    "github",
+    "bot"
+  ],
+  "image": "heroku/nodejs"
+}
