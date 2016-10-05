@@ -9,7 +9,6 @@ const child_process = require('child_process')
 const exec = child_process.exec;
 const spawn = child_process.spawn;
 const Task = require('co-task');
-const co = require('co');
 
 module.exports = {
   http,
@@ -22,5 +21,4 @@ module.exports = {
   exec,
   spawn,
   Task,
-  co
 };
