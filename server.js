@@ -1,4 +1,4 @@
-const { co, http, handler } = require('./libs');
+const { Task, http, handler } = require('./libs');
 const { PORT } = require('./contants');
 
 const headString =
@@ -12,7 +12,7 @@ const headString =
 </head>`;
 let output = '<br />';
 
-const startServer = co.wrap(function*() {
+const startServer = Task.async(function*() {
   log('console: starting server');
   http.createServer(function (req, res) {
     res.write(headString+"DevTools GitHub Bot is: Live");
