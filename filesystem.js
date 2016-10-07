@@ -2,7 +2,8 @@ const { Task, exec } = require('./libs');
 const { MC_ROOT, DEBUGGER_ROOT } = require('./contants');
 const { log } = require('./server');
 const INIT_COMMAND = `cd ${DEBUGGER_ROOT} && git checkout mc-tracking && cd ..`;
-const UPDATE_COMMAND = `cd ${MC_ROOT} && hg pull -u && cd .. && cd ${DEBUGGER_ROOT} && git pull upstream master && cd ..`;
+const UPDATE_COMMAND = `cd ${MC_ROOT} && hg pull -u && cd .. && cd ${DEBUGGER_ROOT} && git fetch upstream master && git reset --hard upstream/master
+ && cd ..`;
 
 const init = Task.async(function*() {
   log('Initializing file system.');

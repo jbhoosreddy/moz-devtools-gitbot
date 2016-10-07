@@ -1,5 +1,5 @@
 const MC_ROOT = "mozilla-central/";
-const WATCH_ROOT = mcRoot + "devtools/";
+const WATCH_ROOT = MC_ROOT + "devtools/";
 const DEBUGGER_ROOT = "debugger.html/";
 const DEBUGGER_DEVTOOLS_ROOT = DEBUGGER_ROOT + "public/js/lib/devtools/";
 const WATCH_FILE_PATTERN = DEBUGGER_DEVTOOLS_ROOT + '**/*.*';

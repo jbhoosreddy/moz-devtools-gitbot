@@ -38,7 +38,7 @@ const observe = Task.async(function*() {
     });
     log('Files in ' + DEBUGGER_DEVTOOLS_ROOT + " now tracked in " + MC_ROOT);
     log("Watching files: ", watchFiles);
-    setTimeout(function() { setInterval(modify, INTERVAL); }, 1000*60*.5);
+    setTimeout(function() { setInterval(modify, INTERVAL); }, 1000*60*1);
     start(watchFiles);
 });
 
